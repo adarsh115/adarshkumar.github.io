@@ -1,0 +1,430 @@
+body {
+    background: #2b2b33;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #2b2b33;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #0b0b0b;
+    /* creates padding around scroll thumb */
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://jonathontoon.com/fonts/Inter-Bold.woff2) format("woff2"), url(https://jonathontoon.com/fonts/Inter-Bold.woff) format("woff");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto");
+@media all {
+    *,
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    body {
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--primary-text-color);
+        background-color: var(--background-color);
+        perspective: 1000px;
+        perspective-origin: 50% 100px;
+    }
+}
+
+@media screen and (min-width: 32rem) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* @media all {
+    *,
+    html {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+} */
+
+
+/* @media all {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+} */
+
+@media all {
+     :root {
+        --background-color: #ddd;
+        --primary-text-color: #000;
+        --secondary-text-color: #333;
+        --link-text-color: #111;
+        --face-size: 256px;
+        --face-offset: calc(var(--face-size)/2);
+        --face-offset-reverse: calc(var(--face-size)/2*-1);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --background-color: #1e1e22;
+        --primary-text-color: #fff;
+        --secondary-text-color: #aaa;
+        --link-text-color: #ccc;
+    }
+}
+
+@media all {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    main {
+        position: relative;
+        margin: 3rem 2rem 2rem;
+        height: 100%;
+    }
+}
+
+
+/* margin */
+
+@media screen and (min-width: 32rem) {
+    main {
+        margin: 10rem 13rem 100em;
+        max-width: 45rem;
+    }
+}
+
+@media all {
+    *,
+    section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    section {
+        display: block;
+    }
+}
+
+@media all {
+    #information {
+        position: absolute;
+        top: 160px;
+    }
+}
+
+@media screen and (min-width: 32rem) {
+    #information {
+        position: absolute;
+        top: 160px;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 25px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa {
+    transition-duration: 0.4s;
+}
+
+.fa:hover {
+    opacity: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #f40083;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+.fa-leetcode {
+    background: #e08d35;
+    color: white;
+}
+
+.adarsh {
+    font-size: 30px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+.button {
+    background-color: #2c7fea;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 1.8px;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #0b4da4;
+    /* Green */
+    color: white;
+}
+
+@media all {
+    *,
+    div {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    *,
+    header {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    header {
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 32rem) {
+    header {
+        margin-bottom: 5rem;
+    }
+}
+
+@media all {
+    *,
+    article {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    article {
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 32rem) {
+    article {
+        margin-bottom: 5rem;
+    }
+}
+
+@media all {
+    *,
+    img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    *,
+    h1 {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    h1 {
+        letter-spacing: -.025em;
+        font-weight: 700;
+        font-size: 2em;
+        color: rgb(228, 228, 228);
+    }
+}
+
+@media all {
+    *,
+    p {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    p {
+        font-family: Lucida Bright, Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, Times New Roman, serif;
+        letter-spacing: -.01em;
+        margin-bottom: 2rem;
+        color: var(--secondary-text-color);
+    }
+}
+
+@media all {
+    *,
+    h2 {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    h2 {
+        letter-spacing: -.025em;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+}
+
+@media all {
+    *,
+    ul {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    ul {
+        list-style: none;
+        font-family: Lucida Bright, Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, Times New Roman, serif;
+        letter-spacing: -.01em;
+        color: var(--secondary-text-color);
+        list-style-type: disc;
+    }
+}
+
+@media all {
+    *,
+    a {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        color: var(--link-text-color);
+        vertical-align: baseline;
+    }
+}
+
+@media all {
+    *,
+    li {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+.project_heading {
+    color: #ffffff;
+}
+
+@media all {
+    li {
+        margin-left: 1.5rem;
+    }
+}
+
+@media all {
+    #projects ul li {
+        margin-bottom: 1.5rem;
+    }
+}
